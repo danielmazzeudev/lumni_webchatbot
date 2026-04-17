@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: var(--site-width);
+  margin: 0 auto;
+  padding: 18px 0 48px;
+}
+
+footer > small {
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text-soft);
+}
+
+footer a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  footer {
+    padding-bottom: 32px;
+  }
+}

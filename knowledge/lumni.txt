@@ -1,0 +1,34 @@
+Lumni
+
+Slogan: "IA First. IA Only."
+CNPJ: 65.613.389/0001-96
+Fundador: Daniel Mazzeu
+Localizacao: Brasil
+Website: https://lumni.dev.br
+
+Descricao: A Lumni transforma dados em inteligencia de negocios, oferecendo solucoes sob medida para impulsionar a tomada de decisao das empresas clientes.
+
+Missao: Capacitar empresas com solucoes de dados inteligentes que geram valor real e mensuravel.
+
+Visao: Ser referencia em inteligencia de dados, tornando a analise acessivel para empresas de todos os portes.
+
+Valores: Inovacao, transparencia, excelencia tecnica e compromisso com resultados.
+
+Servicos:
+
+1. Data Lake
+Arquitetura e implementacao de Data Lakes escalaveis para centralizar dados de forma eficiente.
+
+2. Desenvolvimento de API
+APIs robustas e seguras para integrar sistemas e automatizar fluxos de dados.
+
+3. Analise de Dados
+Dashboards e relatorios inteligentes para transformar dados em insights acionaveis.
+
+4. IA Customizada
+Modelos de inteligencia artificial personalizados para resolver desafios unicos do negocio.
+
+Contato:
+- LinkedIn: linkedin.com/company/lumnicompany/
+- WhatsApp: +55 16 99217-1085
+- E-mail: contato@lumni.dev.br

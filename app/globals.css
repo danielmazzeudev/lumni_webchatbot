@@ -1,118 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
 :root {
-    --theme-a: #00ffcc;
-    --theme-b: #000;
-
-    --radius: 8px;
-    --padgap: 12px;
-    --border: 1px solid rgba(0, 255, 204, 0.4);
-    --shadow: 
-        0 0 5px rgba(0, 255, 204, 0.2),
-        inset 0 0 5px rgba(0, 255, 204, 0.2);
-
-    --button-color: #00ffcc;
-    --button-color-hover: #00ffcc;
-    --button-color-active: #00ffcc;
-    --button-bg: rgba(0, 255, 204, 0.05);
-    --button-bg-hover: rgba(0, 255, 204, 0.05);
-    --button-bg-active: rgba(0, 255, 204, 0.05);
-    --button-border: 1px solid rgba(0, 255, 204, 0.4);
-    --button-border-hover: 1px solid rgba(0, 255, 204, 0.4);
-    --button-border-active: 1px solid rgba(0, 255, 204, 0.4);
-
-    --textarea-border: 0;
-    --textarea-bg: #0a0a0a;
-
-    --chatbot-bg: #0a0a0a;
-    --answers-bg: #0a0a0a;
-    --answers-border: 0;
+  --bg-primary: #050505;
+  --bg-secondary: rgba(16, 16, 16, 0.78);
+  --bg-panel: rgba(20, 20, 20, 0.86);
+  --bg-panel-strong: rgba(24, 24, 24, 0.94);
+  --text-primary: #f6f6f1;
+  --text-secondary: #b7b7af;
+  --text-soft: #7f7f78;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --shadow-lg: 0 24px 80px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 16px 36px rgba(0, 0, 0, 0.3);
+  --accent: #f4f4ef;
+  --accent-contrast: #0b0b0b;
+  --radius-xl: 32px;
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --site-width: min(1280px, calc(100% - 48px));
 }
 
 *,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    text-decoration: none;
-    font-family: "Source Sans 3", sans-serif;
-    transition: all 0.3s ease-in-out;
-    text-rendering: optimizeLegibility;
-    font-optical-sizing: auto;
-    image-rendering: optimizeQuality;
-    -webkit-tap-highlight-color: transparent !important;
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,
-body { overflow-x: hidden !important; }
-
-html { scroll-behavior: smooth; }
-
-body { background-color: #0a0a0a; }
-
-button { cursor: pointer; }
-
-h1 {
-    font-size: 60px;
-    font-weight: 900;
-    letter-spacing: -1px;
-    text-align: center;
-    color: var(--theme-b);
+html {
+  scroll-behavior: smooth;
 }
 
-h2 {
-    font-size: 16px;
-    font-weight: 900;
-    text-transform: uppercase;
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #000000;
+  color: var(--text-primary);
+  font-family: var(--font-body), sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-p,
+button,
+input,
+textarea {
+  font: inherit;
+}
+
 button {
-    font-size: 14px;
-    line-height: 1.5;
+  border: 0;
+  background: none;
+  cursor: pointer;
 }
 
-small,
-span {
-    font-size: 12px;
-    line-height: 1.4;
-    color: #555;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-button > svg {
-    width: 20px;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-::-webkit-scrollbar { width: 7px; }
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-thumb { border-radius: 7px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--theme-b); }
-::-webkit-scrollbar-thumb:hover {  background: var(--theme-a); }
+::selection {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
 
-textarea::-webkit-scrollbar { width: 7px; }
-textarea::-webkit-scrollbar-track,
-textarea::-webkit-scrollbar-thumb { border-radius: 7px; }
-textarea::-webkit-scrollbar-track { background: transparent; }
-textarea::-webkit-scrollbar-thumb { background: var(--theme-b); }
-textarea::-webkit-scrollbar-thumb:hover { background: var(--theme-a); }
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
 
-@media screen and (max-width: 768px) {
-    h1 { font-size: 40px; }
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
-    h2 { font-size: 14px; }
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+}
 
-    p,
-    button { font-size: 12px; }
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
 
-    small,
-    span { font-size: 10px; }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
 
-    button > svg { 
-        width: 16px; 
-        height: auto; 
-    }
+@media (max-width: 640px) {
+  :root {
+    --site-width: min(1280px, calc(100% - 24px));
+  }
 }

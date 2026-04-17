@@ -1,0 +1,16 @@
+Politica de Privacidade - Lumni
+
+A Lumni compromete-se com a protecao da privacidade dos usuarios.
+
+Dados coletados:
+- nome, e-mail, telefone e mensagens enviadas
+- dados de navegacao, como IP, navegador, paginas visitadas e tempo de permanencia
+- dados de campanhas e marketing, quando aplicavel
+
+Uso dos dados:
+Os dados sao usados para responder solicitacoes, fornecer servicos, enviar comunicacoes autorizadas, analisar o desempenho do site e cumprir obrigacoes legais.
+
+Compartilhamento:
+A Lumni nao vende informacoes pessoais.
+
+Contato de privacidade: contato@lumni.dev.br
