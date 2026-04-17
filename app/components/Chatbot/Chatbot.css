@@ -78,7 +78,7 @@
 .chat-avatar-image {
   padding: 11px;
   object-fit: contain;
-  filter: invert(1) brightness(1.25);
+  filter: none;
 }
 
 .chat-title strong {
