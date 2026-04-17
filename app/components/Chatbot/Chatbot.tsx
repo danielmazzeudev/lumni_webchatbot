@@ -20,7 +20,7 @@ export function Chatbot() {
     {
       id: "welcome",
       role: "assistant",
-      content: "Olá! Eu sou a LUNA, consultora virtual da Lumni. Como posso ajudar você hoje?",
+      content: "Olá! Eu sou a Luna, consultora virtual da Lumni. Como posso ajudar você hoje?",
     },
   ]);
   const answersRef = useRef<HTMLDivElement>(null);
@@ -101,7 +101,7 @@ export function Chatbot() {
 
       const data = await response.json();
       if (!response.ok) {
-        throw new Error(data?.error ?? "Falha ao consultar a LUNA.");
+        throw new Error(data?.error ?? "Falha ao consultar a Luna.");
       }
 
       setMessages((current) => [
@@ -149,7 +149,7 @@ export function Chatbot() {
                 />
               </div>
               <div>
-                <strong>LUNA</strong>
+                <strong>Luna</strong>
                 <span>Atendimento inteligente da Lumni</span>
               </div>
             </div>
@@ -166,7 +166,7 @@ export function Chatbot() {
                 <Sparkles size={14} />
                 Atendimento online
               </div>
-              <h1>Fale com a LUNA e vá direto ao que importa.</h1>
+              <h1>Fale com a Luna e vá direto ao que importa.</h1>
               <p>
                 Tire dúvidas, explique sua necessidade e receba o atendimento certo sem passar por uma
                 página de apresentação disfarçada de chat.
@@ -187,14 +187,14 @@ export function Chatbot() {
                   message.role === "user" ? "message-user" : "message-assistant"
                 }`}
               >
-                <span className="message-author">{message.role === "user" ? "Você" : "LUNA"}</span>
+                <span className="message-author">{message.role === "user" ? "Você" : "Luna"}</span>
                 <p>{message.content}</p>
               </article>
             ))}
 
             {loading ? (
               <article className="message-bubble message-assistant">
-                <span className="message-author">LUNA</span>
+                <span className="message-author">Luna</span>
                 <p className="thinking">
                   <LoaderCircle size={16} className="spin" />
                   Pensando na melhor resposta...

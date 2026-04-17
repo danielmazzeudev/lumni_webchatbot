@@ -20,7 +20,7 @@ export default function Home() {
           </a>
           .
           <br />
-          LUNA, atendimento inteligente da Lumni. Todos os direitos reservados {new Date().getFullYear()}.
+          Luna, atendimento inteligente da Lumni. Todos os direitos reservados {new Date().getFullYear()}.
         </small>
       </Footer>
     </>
