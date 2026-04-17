@@ -8,7 +8,7 @@ Dados coletados:
 - dados de campanhas e marketing, quando aplicavel
 
 Uso dos dados:
-Os dados sao usados para responder solicitacoes, fornecer servicos, enviar comunicacoes autorizadas, analisar o desempenho do site e cumprir obrigacoes legais.
+Os dados sao usados para responder solicitacoes, fornecer servicos de Data Lake, Desenvolvimento de API, Analise de Dados, IA Customizada e Suporte de Desenvolvimento, enviar comunicacoes autorizadas, analisar o desempenho do site e cumprir obrigacoes legais.
 
 Compartilhamento:
 A Lumni nao vende informacoes pessoais.

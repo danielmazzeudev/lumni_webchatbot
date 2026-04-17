@@ -3,7 +3,7 @@ Termos de Uso - Lumni
 Ao acessar e utilizar o site da Lumni, o usuario concorda com estes termos.
 
 Descricao dos servicos:
-A Lumni oferece servicos de inteligencia de dados, incluindo Data Lake, Desenvolvimento de API, Analise de Dados e IA Customizada. Os servicos sao prestados mediante proposta comercial especifica e contrato entre as partes.
+A Lumni oferece servicos de inteligencia de dados, incluindo Data Lake, Desenvolvimento de API, Analise de Dados, IA Customizada e Suporte de Desenvolvimento. Os servicos sao prestados mediante proposta comercial especifica e contrato entre as partes.
 
 Uso do site:
 O usuario deve fornecer informacoes verdadeiras, nao utilizar o site para fins ilegais e nao reproduzir conteudo sem autorizacao.
